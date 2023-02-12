@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("./UbuntuMono.ttf") format("truetype");
+}
+
+* {
+    border: 0;
+    padding: 0;
+    font-family: "MyFont";
+}
+
+body {
+    /* background-color: rgb(240, 149, 149); */
+    background-image: url('./backgroud.jpeg');
+    background-size: cover;
+}
+
+.Div-container{
+    background: #ffffff5c;
+    /* width: 300px; */
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.button{
+    padding: 10px;
+    width: max-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+.sketchpicker {
+    user-select: none;
+}
+
+.navigation-container {
+    user-select: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.navigation-container>a {
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 3px #000000;
+    text-transform: capitalize;
+}
+.navigation-container>.existPage{
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 900;
+}
+
+
+.formm{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.selectt{
+    padding: 10px;
+    border-radius: 5px;
+}
+.inputt{
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.Wifi-container-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.Wifi-container-button>button{
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+.Footer-container{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background: #fffffffd;
+}
